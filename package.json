@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "@supabase/supabase-js": "^2.76.1",
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "stripe": "^19.1.0"
+  },
+  "name": "as",
+  "version": "1.0.0",
+  "description": "The current music industry was built for *access*, not *intimacy*.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kfranklin93/AS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/kfranklin93/AS/issues"
+  },
+  "homepage": "https://github.com/kfranklin93/AS#readme"
+}

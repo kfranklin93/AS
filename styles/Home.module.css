@@ -1,0 +1,67 @@
+/* This will style the main container */
+.container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* This will style the hero section */
+.hero {
+  text-align: center;
+}
+
+.heroImage {
+  width: 100%;
+  height: 300px;
+  background: #eee;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.salesPitch {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: auto;
+  color: #555;
+}
+
+.buyButton {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background: #0070f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 2rem 0;
+  border-radius: 5px;
+  transition: background 0.2s;
+}
+
+.buyButton:hover {
+  background: #0056b3;
+}
+
+.fanWall {
+  margin-top: 4rem;
+  max-width: 800px;
+  margin: 4rem auto;
+}
+
+.comment {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.comment p {
+  margin: 0 0 0.5rem 0;
+}
+
+.commentAuthor {
+  display: block;
+  text-align: right;
+  font-style: italic;
+  color: #333;
+}
