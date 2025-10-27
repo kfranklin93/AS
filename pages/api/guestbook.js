@@ -1,4 +1,9 @@
-const { supabase } = require('../../lib/supabaseClient');
+// CHANGE THIS:
+// const { supabase } = require('../../lib/supabaseClient'); 
+
+// TO THIS:
+import { supabase } from '../../lib/supabaseClient';
+
 export default async function handler(req, res) {
   
   // POST: Add a new comment
